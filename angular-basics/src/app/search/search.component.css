@@ -1,0 +1,24 @@
+.search-div {
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+
+input[type=text]{
+  width: 240px;
+  padding: 0.5rem;
+  height: 30px;
+  margin-left:20px;
+  border: none;
+}
+
+.message {
+  padding: 1rem;
+}
+
+.changeBackground{
+  background-color: #FAD7A0;
+}
+
+/* span {
+  padding: 1rem;
+} */
