@@ -1,5 +1,4 @@
-## ALLE ANSEHEN
-Complete Angular 13 Course Step by Step
+## Complete Angular 13 Course Step by Step
 
 ![angular tutorial](https://user-images.githubusercontent.com/93710089/218281400-351af66e-2e75-4653-8387-c1a4bfd591a0.JPG)
 
