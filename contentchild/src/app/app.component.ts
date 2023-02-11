@@ -4,8 +4,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  // encapsulation: ViewEncapsulation.None, (if you don't use any, by default "ViewEncapsulation.Emulated" is used)
+  // encapsulation: ViewEncapsulation.ShadowDom
 })
 export class AppComponent {
-  title = 'viewencapsulation';
+  title = 'contentchild';
 }
