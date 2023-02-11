@@ -6,4 +6,4 @@ Complete Angular 13 Course Step by Step
 Find it here: https://www.youtube.com/playlist?list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty
 
 :copyright: credits to procademy, great job on the tutorial!:ok_hand:
-Very well structured, explained and the conent is huge! Big Thanks for sharing your knowledge :pray: :heart:
+Very well structured, explained and the content is huge! Big Thanks for sharing your knowledge :pray: :heart:
