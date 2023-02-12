@@ -1,8 +1,60 @@
-<h1 setBackground>This is App Component</h1>
-<div class="container" setBackground>
+<!-- <h1 appBetterhighlight>This is App Component</h1> -->
+<div class="container" setBackground appHover>
   <p>This is a demo HTML content to understand custom attribute directive in Angular.</p>
 </div>
 
+<div appHighlight appHover>
+  <p>This is a demo HTML content to understand custom attribute directive in Angular.</p>
+</div>
 
-<!-- setBackground
-sets the background to green :) -->
+<div appBetterhighlight>
+  <p>This is a demo HTML content to understand @HostBinding in Angular.</p>
+</div>
+
+ <div [appBetterhighlight]="'red'" [defaultColor]="'yellow'" [title]="'Example title'"> <!-- appBetterhighligth in [ ] due to giving an alias to the @Input('alias') -->
+  <p>This is a demo HTML content to understand @HostBinding with Property Binding in Angular.</p>
+</div>
+
+<div [appClass]="{container: 10>5, 'change-font': true}">  <!-- ngClass -> 'classname': condition  -->
+  <p>This is a demo HTML content to understand ngClass with Property Binding in Angular.</p>
+</div>
+
+<div class="container"  [appStyle]="{backgroundColor: active ? 'green' : 'red', color: 'white', fontWeight: 'bold'}">
+  <p>This is a demo HTML content to understand ngStyle directive with Property Binding in Angular.</p>
+</div>
+<!-- 
+<button class="btn btn-notice" (click)="DisplayNotice()">Show notice</button>
+<div class="info-container notice" *ngIf="display; else myVar">
+    <h3>This is important notice!</h3>
+    <p>This is a notice issued for all website users.</p>
+</div>
+<ng-template #myVar>
+  <p>This is an example paragraph due to else resulted in false</p>
+</ng-template> -->
+
+<!-- 
+
+<ng-template [ngIf]="display">
+<button class="btn btn-notice" (click)="DisplayNotice()">Show notice</button>
+<div class="info-container notice" *ngIf="display">
+    <h3>This is important notice!</h3>
+    <p>This is a notice issued for all website users.</p>
+</div>
+</ng-template> -->
+
+
+<button class="btn btn-notice" (click)="DisplayNotice()">Show notice</button>
+<div class="info-container notice"  *appIf="display">
+    <h3>This is important notice!</h3>
+    <p>This is a notice issued for all website users.</p>
+</div>
+
+<p *appIf="10 > 5">This is a demo paragraph!</p>
+
+<div class="container" [ngSwitch]="occupation">
+  <p *ngSwitchCase="'teacher'">This paragraph will be displayed when occupation is teacher.</p>
+  <p *ngSwitchCase="'designer'">This paragraph will be displayed when occupation is designer.</p>
+  <p *ngSwitchCase="'lawyer'">This paragraph will be displayed when occupation is lawyer.</p>
+  <p *ngSwitchDefault>This paragraph is default and will be displayed if no case matches switch expression</p>
+</div>
+

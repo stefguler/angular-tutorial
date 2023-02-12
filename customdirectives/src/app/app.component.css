@@ -20,6 +20,7 @@
   border: none;
 }
 .btn-notice{
+  cursor: pointer;
   margin: 10px 30px;
   background-color: #F5B041;
 }
