@@ -1,0 +1,13 @@
+<div class="container-top">
+  <app-angular></app-angular>
+  <app-javascript></app-javascript>
+</div>
+
+<app-adduser></app-adduser>
+
+<div class="container">
+  <div class="user-div" *ngFor="let user of users">
+    <div class="user-name" >{{user.name}}</div>
+    <div class="user-status" [ngStyle]="{background: user.status === 'active' ? 'lightgreen': 'pink'}">{{user.status}}</div>
+  </div>
+</div>
