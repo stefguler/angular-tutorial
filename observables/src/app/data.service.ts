@@ -14,6 +14,8 @@ export class DataService {
   //   this.dataEmitter.emit(data);
   // }
 
+
+  // with Subject function from rxjs
   dataEmitter = new Subject<string>();
 
   raiseDataEmitterEvent(data: string) {

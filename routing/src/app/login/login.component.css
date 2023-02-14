@@ -1,0 +1,27 @@
+/* Wrapper css */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px auto;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+}

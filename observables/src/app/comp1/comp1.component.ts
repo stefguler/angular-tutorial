@@ -19,7 +19,5 @@ export class Comp1Component {
     // console.log(this.enteredText)
     this.dataService.raiseDataEmitterEvent(this.enteredText)
   }
-
- 
-
+  
 }

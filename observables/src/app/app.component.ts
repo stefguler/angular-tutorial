@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
     this.counterSub =  this.counterObservable.subscribe((val) => {
       console.log(val);
     })
-    
   }
 
 
