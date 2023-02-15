@@ -1,6 +1,5 @@
 import { ActivatedRoute, Router, Event, NavigationStart, NavigationEnd, NavigationCancel, NavigationError } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from './Services/auth.service';
 
 @Component({
   selector: 'app-root',
